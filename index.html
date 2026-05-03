@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Darshan Hoolikatti — Web Developer & Coder. Building intelligent web experiences at the intersection of code and creativity." />
+  <title>Darshan Hoolikatti | Web Developer & Coder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── BACKGROUND ORBS ── -->
+  <div class="orb orb-1" id="orb1"></div>
+  <div class="orb orb-2" id="orb2"></div>
+  <div class="orb orb-3" id="orb3"></div>
+
+  <!-- ── PARTICLES ── -->
+  <div class="particles" id="particles"></div>
+
+  <!-- ── NAVIGATION ── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo" id="nav-logo-link">
+        Darshan<span>.</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home"    class="nav-link active" data-section="home">Home</a></li>
+        <li><a href="#skills"  class="nav-link"         data-section="skills">Skills</a></li>
+        <li><a href="#projects"class="nav-link"         data-section="projects">Projects</a></li>
+        <li><a href="#contact" class="nav-link"         data-section="contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════════
+       SECTION 1 — HERO
+  ══════════════════════════════════════════ -->
+  <section id="home" class="section hero-section">
+    <!-- ghost watermark -->
+    <div class="hero-watermark" aria-hidden="true">DARSHAN</div>
+
+    <div class="hero-inner">
+
+      <!-- LEFT — text -->
+      <div class="hero-text">
+        <div class="availability-badge">
+          <span class="pulse-dot"></span>
+          AVAILABLE FOR WORK
+        </div>
+
+        <h1 class="hero-heading">
+          Hello, I'm<br />
+          <span class="accent">Darshan</span>
+        </h1>
+
+        <p class="hero-subtitle">Web Developer &amp; Coder</p>
+        <p class="hero-bio">Building intelligent web experiences at the intersection of code and creativity.</p>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary" id="cta-projects">View Projects</a>
+          <a href="#contact"  class="btn btn-outline" id="cta-contact">Contact Me</a>
+        </div>
+      </div>
+
+      <!-- RIGHT — photo -->
+      <div class="hero-photo-wrap">
+        <div class="photo-ring photo-ring-outer"></div>
+        <div class="photo-ring photo-ring-inner"></div>
+        <div class="photo-circle">
+          <img src="assets/images/IM.jpg" alt="Darshan Hoolikatti" class="profile-img" />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       SECTION 2 — SKILLS
+  ══════════════════════════════════════════ -->
+  <section id="skills" class="section reveal">
+    <div class="section-inner">
+      <p class="section-label">WHAT I KNOW</p>
+      <h2 class="section-heading">Skills</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-header">
+            <span class="skill-name">HTML</span>
+            <span class="skill-pct accent-mono">90%</span>
+          </div>
+          <div class="skill-track">
+            <div class="skill-fill" data-width="90"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-header">
+            <span class="skill-name">CSS</span>
+            <span class="skill-pct accent-mono">85%</span>
+          </div>
+          <div class="skill-track">
+            <div class="skill-fill" data-width="85"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-header">
+            <span class="skill-name">JavaScript</span>
+            <span class="skill-pct accent-mono">75%</span>
+          </div>
+          <div class="skill-track">
+            <div class="skill-fill" data-width="75"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-header">
+            <span class="skill-name">Python</span>
+            <span class="skill-pct accent-mono">80%</span>
+          </div>
+          <div class="skill-track">
+            <div class="skill-fill" data-width="80"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       SECTION 3 — PROJECTS
+  ══════════════════════════════════════════ -->
+  <section id="projects" class="section reveal">
+    <div class="section-inner">
+      <p class="section-label">WHAT I'VE BUILT</p>
+      <h2 class="section-heading">Projects</h2>
+
+      <div class="projects-grid">
+
+        <!-- Project 01 -->
+        <div class="project-card">
+          <span class="project-ghost-num">01</span>
+          <span class="project-tag">AI / NEWS</span>
+          <h3 class="project-title">FlashRead — AI News App</h3>
+          <p class="project-desc">Summarizes trending news using AI and provides key takeaways with sentiment analysis.</p>
+          <a href="https://github.com/yourusername/flashread" target="_blank" rel="noopener noreferrer" class="project-link">
+            View on GitHub <span class="link-arrow">→</span>
+          </a>
+        </div>
+
+        <!-- Project 02 -->
+        <div class="project-card">
+          <span class="project-ghost-num">02</span>
+          <span class="project-tag">ML / PYTHON</span>
+          <h3 class="project-title">Disease Predictor</h3>
+          <p class="project-desc">ML-powered web app to predict disease risk and suggest health tips. Built using Python and Random Forest.</p>
+          <a href="https://github.com/Darshan-h2004/Ai-based-medical-diagnosis-" target="_blank" rel="noopener noreferrer" class="project-link">
+            View on GitHub <span class="link-arrow">→</span>
+          </a>
+        </div>
+
+        <!-- Project 03 — In Progress -->
+        <div class="project-card">
+          <span class="project-ghost-num">03</span>
+          <span class="project-tag">HTML / CSS / JS</span>
+          <h3 class="project-title">Personal Portfolio</h3>
+          <p class="project-desc">This very website — a dark-themed, animated portfolio built from scratch using HTML, CSS, and JavaScript with no frameworks.</p>
+          <span class="project-inprogress">In Progress</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       SECTION 4 — CONTACT
+  ══════════════════════════════════════════ -->
+  <section id="contact" class="section reveal">
+    <div class="section-inner">
+      <p class="section-label">GET IN TOUCH</p>
+      <h2 class="section-heading">Contact Me</h2>
+
+      <div class="contact-list">
+
+        <a href="mailto:darshanhoolikatti@gmail.com" class="contact-card" id="contact-email">
+          <div class="contact-icon">✉️</div>
+          <div class="contact-info">
+            <span class="contact-label">EMAIL</span>
+            <span class="contact-value">darshanhoolikatti@gmail.com</span>
+          </div>
+          <span class="contact-arrow">→</span>
+        </a>
+
+        <a href="tel:+919538825908" class="contact-card" id="contact-phone">
+          <div class="contact-icon">📞</div>
+          <div class="contact-info">
+            <span class="contact-label">PHONE</span>
+            <span class="contact-value">+91 95388 25908</span>
+          </div>
+          <span class="contact-arrow">→</span>
+        </a>
+
+        <a href="https://instagram.com/darshanhoolikatti" target="_blank" rel="noopener noreferrer" class="contact-card" id="contact-instagram">
+          <div class="contact-icon">📸</div>
+          <div class="contact-info">
+            <span class="contact-label">INSTAGRAM</span>
+            <span class="contact-value">@darshanhoolikatti</span>
+          </div>
+          <span class="contact-arrow">→</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/darshan-hoolikatti-99208b32b/" target="_blank" rel="noopener noreferrer" class="contact-card" id="contact-linkedin">
+          <div class="contact-icon">💼</div>
+          <div class="contact-info">
+            <span class="contact-label">LINKEDIN</span>
+            <span class="contact-value">darshan-hoolikatti</span>
+          </div>
+          <span class="contact-arrow">→</span>
+        </a>
+
+        <a href="https://github.com/Darshan-h2004" target="_blank" rel="noopener noreferrer" class="contact-card" id="contact-github">
+          <div class="contact-icon">🐙</div>
+          <div class="contact-info">
+            <span class="contact-label">GITHUB</span>
+            <span class="contact-value">Darshan-h2004</span>
+          </div>
+          <span class="contact-arrow">→</span>
+        </a>
+
+      </div>
+
+      <p class="footer-line">Crafted with ☕ and curiosity by Darshan Hoolikatti · 2025</p>
+    </div>
+  </section>
+
+  <!-- ── SCROLL TO TOP ── -->
+  <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
